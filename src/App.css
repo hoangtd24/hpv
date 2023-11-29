@@ -1,0 +1,70 @@
+@import url("normalize.css");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "UTM-Facebook", sans-serif;
+  line-height: 1.5;
+  text-rendering: optimizeSpeed;
+}
+html {
+  overflow-y: scroll;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.wrapper {
+  position: relative;
+}
+
+input,
+select,
+textarea {
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  border: none;
+  outline: none;
+  background-color: #fff;
+}
+.wrapper {
+  max-width: 600px;
+  margin: auto;
+}
+/* embeb */
+@font-face {
+  font-family: Rifton-Normal-Viethoa;
+  src: url("./assets/fonts/Rifton\ Normal\ Viethoa.ttf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: UTM-Facebook;
+  src: url("./assets/fonts/UTM-Facebook.ttf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: Baloo2-Regular;
+  src: url("./assets/fonts/Baloo2-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: ProximaNova;
+  src: url("./assets/fonts/Proxima-Nova-Bold.woff");
+  font-weight: 600;
+}
